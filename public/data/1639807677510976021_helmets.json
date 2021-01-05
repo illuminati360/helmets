@@ -1,0 +1,125 @@
+
+{
+    "batman": {
+        "resourceId": "artifact:1639808640950993699",
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.03,
+            "y": 0.03,
+            "z": 0.03
+        }
+    },
+    "biker": {
+        "resourceId": "artifact:1639871477329167013",
+	"position": {
+            "x": 0,
+            "y": 0.02,
+            "z": 0
+	},
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.0348,
+            "y": 0.0348,
+            "z": 0.0348
+        }
+    },
+    "ironman": {
+        "resourceId": "artifact:1639871465140519583",
+        "position": {
+            "x": 0,
+            "y": -0.25,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "scale": {
+            "x": 1.02,
+            "y": 1.02,
+            "z": 1.02
+        }
+    },
+    "hat": {
+        "resourceId": "artifact:1639931166335172831",
+        "position": {
+            "x": 0,
+            "y": 0.05,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.0162,
+            "y": 0.0162,
+            "z": 0.0162
+        }
+    },
+    "mask": {
+        "resourceId": "artifact:1639960090708541765",
+        "position": {
+            "x": 0,
+            "y": -0.1,
+            "z": 0.11
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "scale": {
+            "x": 1.32,
+            "y": 1.32,
+            "z": 1.32
+        }
+    },
+    "gasmask": {
+        "resourceId": "artifact:1640055285504541332",
+        "position": {
+            "x": 0,
+            "y": -1.17,
+            "z": -0.03
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "scale": {
+            "x": 2.32,
+            "y": 2.32,
+            "z": 2.32
+        }
+    },
+    "hazmat": {
+        "attachPoint": "spine-middle",
+        "resourceId": "artifact:1640067608143200530",
+        "position": {
+            "x": 0,
+            "y": -1.81,
+            "z": -0.05
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "scale": {
+            "x": 5.61,
+            "y": 5.61,
+            "z": 5.3
+        }
+    }
+}

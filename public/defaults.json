@@ -23,6 +23,27 @@
             "z": 4
         }
     },
+    "upup!": {
+        "resourceId": "artifact:1150513295489237974",
+        "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 4
+        }
+    },
+    "downdown!": {
+        "resourceId": "artifact:1150513295489237974",
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 180
+        },
+        "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 4
+        }
+    },
     "sizeup!": {
         "resourceId": "artifact:1150512610458730762",
         "scale": {
@@ -68,6 +89,58 @@
             "x": 4,
             "y": 4,
             "z": 4
+        }
+    },
+    "plusplus!": {
+        "resourceId": "artifact:1150513157446304696",
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+        }
+    },
+    "minusminus!": {
+        "resourceId": "artifact:1150513157446304696",
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 180
+        },
+        "scale": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+        }
+    },
+    "prev!": {
+        "resourceId": "artifact:1150513345829274592",
+        "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+        },
+        "scale": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 2.5
+        }
+    },
+    "next!": {
+        "resourceId": "artifact:1150512663961272704",
+        "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+        },
+        "scale": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 2.5
         }
     }
 }
