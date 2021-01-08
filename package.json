@@ -25,7 +25,8 @@
     "build-only": "tsc --build",
     "build-watch": "tsc --build -w",
     "lint": "eslint --ext .ts src",
-    "start": "node .",
+    "start": "node -r dotenv/config .",
+    "start-naughty": "WEBSITE_HOSTNAME=piano.illuminati360.xyz/helmet PORT=3954 NAUGHTY=true PASSWORD=billcosby node .",
     "start-watch": "nodemon --nolazy --inspect .",
     "debug": "node --nolazy --inspect=9229 .",
     "debug-watch": "npm run build-only && concurrently \"npm run build-watch\" \"nodemon --nolazy --inspect=9229 .\""

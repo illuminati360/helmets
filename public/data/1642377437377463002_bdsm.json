@@ -1,0 +1,503 @@
+
+{
+    "horns": {
+        "attachPoint": "head",
+        "resourceId": "artifact:1643854119418462494",
+        "position": {
+            "x": 0,
+            "y": 0.16,
+            "z": 0.06
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.678,
+            "y": 1.678,
+            "z": 1.678
+        }
+    },
+    "bunnyears": {
+        "attachPoint": "head",
+        "resourceId": "artifact:1643854149961384243",
+        "position": {
+            "x": 0,
+            "y": 0.06,
+            "z": 0.06
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.640,
+            "y": 1.640,
+            "z": 1.640
+        }
+    },
+    "mask": {
+        "attachPoint": "head",
+        "resourceId": "artifact:1643607787340562506",
+        "position": {
+            "x": 0,
+            "y": -0.36,
+            "z": -0.02
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.907,
+            "y": 1.907,
+            "z": 1.907
+        }
+    },
+    "gag": {
+        "attachPoint": "head",
+        "resourceId": "artifact:1643854126758494498",
+        "position": {
+            "x": 0,
+            "y": -0.09,
+            "z": 0.12
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.64,
+            "y": 1.64,
+            "z": 1.64
+        }
+    },
+    "collar": {
+        "attachPoint": "spine-top",
+        "resourceId": "artifact:1642378797078545318",
+        "position": {
+            "x": 0,
+            "y": 0.05,
+            "z": 0.02
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.16,
+            "y": 1.16,
+            "z": 1.16
+        }
+    },
+    "boobs": {
+        "attachPoint": "spine-top",
+        "resourceId": "artifact:1644973173810135151",
+        "position": {
+            "x": 0,
+            "y": -0.13,
+            "z": 0.12
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 0.8017,
+            "y": 0.8017,
+            "z": 0.8017
+        }
+    },
+    "bra": {
+        "attachPoint": "spine-top",
+        "resourceId": "artifact:1642378686709629726",
+        "position": {
+            "x": 0,
+            "y": -0.2,
+            "z": 0.04
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.16,
+            "y": 1.16,
+            "z": 1.16
+        }
+    },
+    "cuff_left": {
+        "attachPoint": "left-hand",
+        "resourceId": "artifact:1643449555066290834",
+        "position": {
+            "x": 0,
+            "y": 0.01,
+            "z": -0.03
+        },
+        "rotation": {
+            "x": 90,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.531,
+            "y": 1.531,
+            "z": 1.531
+        }
+    },
+    "cuff_right": {
+        "attachPoint": "right-hand",
+        "resourceId": "artifact:1643449555066290834",
+        "position": {
+            "x": 0,
+            "y": 0.01,
+            "z": -0.03
+        },
+        "rotation": {
+            "x": 90,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.531,
+            "y": 1.531,
+            "z": 1.531
+        }
+    },
+    "glove_left": {
+        "attachPoint": "left-hand",
+        "resourceId": "artifact:1645025396334264667",
+        "position": {
+            "x": 0,
+            "y": -0.019,
+            "z": 0.059
+        },
+        "rotation": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": -1.12,
+            "y": 1.12,
+            "z": 1.12
+        }
+    },
+    "glove_right": {
+        "attachPoint": "right-hand",
+        "resourceId": "artifact:1645025396334264667",
+        "position": {
+            "x": 0,
+            "y": -0.019,
+            "z": 0.059
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.12,
+            "y": 1.12,
+            "z": 1.12
+        }
+    },
+    "dildo": {
+        "attachPoint": "hips",
+        "resourceId": "artifact:1642378810449986496",
+        "position": {
+            "x": 0,
+            "y": -0.1,
+            "z": 0.1
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.3464,
+            "y": 1.3464,
+            "z": 1.3464
+        }
+    },
+    "vag": {
+        "attachPoint": "hips",
+        "resourceId": "artifact:1645046085963481589",
+        "position": {
+            "x": 0,
+            "y": -0.07,
+            "z": 0.06
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.365,
+            "y": 1.365,
+            "z": 1.365
+        }
+    },
+    "futa": {
+        "attachPoint": "hips",
+        "resourceId": "artifact:1642378699032494888",
+        "position": {
+            "x": 0,
+            "y": -0.01,
+            "z": 0.06
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.458,
+            "y": 1.458,
+            "z": 1.458
+        }
+    },
+    "panties": {
+        "attachPoint": "hips",
+        "resourceId": "artifact:1642378737175495515",
+        "position": {
+            "x": 0,
+            "y": -0.05,
+            "z": 0.03
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 0.897,
+            "y": 0.897,
+            "z": 0.897
+        }
+    },
+    "legs": {
+        "attachPoint": "hips",
+        "resourceId": "artifact:1644982658549154527",
+        "position": {
+            "x": 0,
+            "y": -0.8,
+            "z": 0.01
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 3,
+        "scale": {
+            "x": 77.79,
+            "y": 77.79,
+            "z": 77.79
+        }
+    },
+    "garters": {
+        "attachPoint": "hips",
+        "resourceId": "artifact:1642378660621058822",
+        "position": {
+            "x": 0,
+            "y": -0.87,
+            "z": 0.01
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 3,
+        "scale": {
+            "x": 0.79,
+            "y": 0.79,
+            "z": 0.79
+        }
+    },
+    "stockings": {
+        "attachPoint": "hips",
+        "resourceId": "artifact:1642378711615406900",
+        "position": {
+            "x": 0,
+            "y": -0.61,
+            "z": 0.01
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 3,
+        "scale": {
+            "x": 0.785,
+            "y": 0.785,
+            "z": 0.785
+        }
+    },
+    "left-boot": {
+        "attachPoint": "hips",
+        "resourceId": "artifact:1645090252924125493",
+        "position": {
+            "x": -0.0199,
+            "y": -0.81,
+            "z": 0.04
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 3,
+        "scale": {
+            "x": -0.586,
+            "y": 0.586,
+            "z": 0.586
+        }
+    },
+    "right-boot": {
+        "attachPoint": "hips",
+        "resourceId": "artifact:1645090252924125493",
+        "position": {
+            "x": 0.0199,
+            "y": -0.81,
+            "z": 0.04
+        },
+        "rotation": {
+            "x": 0,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 3,
+        "scale": {
+            "x": 0.586,
+            "y": 0.586,
+            "z": 0.586
+        }
+    },
+    "butt_plug": {
+        "attachPoint": "right-hand",
+        "resourceId": "artifact:1643854110761419033",
+        "position": {
+            "x": -0.01,
+            "y": -0.07,
+            "z": 0.06
+        },
+        "rotation": {
+            "x": 90,
+            "y": -180,
+            "z": 0
+        },
+        "menuScale": 4,
+        "scale": {
+            "x": 1.5616,
+            "y": 1.5616,
+            "z": 1.5616
+        }
+    },
+    "paddle": {
+        "attachPoint": "right-hand",
+        "resourceId": "artifact:1643854164901495105",
+        "position": {
+            "x": 0,
+            "y": -0.01,
+            "z": 0.07
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "menuScale": 1,
+        "scale": {
+            "x": 1.286,
+            "y": 1.286,
+            "z": 1.286
+        }
+    },
+    "vibrator": {
+        "attachPoint": "right-hand",
+        "resourceId": "artifact:1643854141564387624",
+        "position": {
+            "x": 0,
+            "y": 0.01,
+            "z": 0.07
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+        },
+        "menuScale": 2,
+        "scale": {
+            "x": 1.2554,
+            "y": 1.2554,
+            "z": 1.2554
+        }
+    },
+    "wand": {
+        "attachPoint": "right-hand",
+        "resourceId": "artifact:1643854172501573957",
+        "position": {
+            "x": -0.03,
+            "y": -0.02,
+            "z": 0.07
+        },
+        "rotation": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+        },
+        "menuScale": 2,
+        "scale": {
+            "x": 1.0410,
+            "y": 1.0410,
+            "z": 1.0410
+        }
+    },
+    "whip": {
+        "attachPoint": "right-hand",
+        "resourceId": "artifact:1643854134492791077",
+        "position": {
+            "x": -0.21,
+            "y": -0.01,
+            "z": 0.07
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+        },
+        "menuScale": 2,
+        "scale": {
+            "x": 1.531,
+            "y": 1.531,
+            "z": 1.531
+        }
+    }
+}

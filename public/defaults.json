@@ -91,6 +91,32 @@
             "z": 4
         }
     },
+    "moveleft!": {
+        "resourceId": "artifact:1150513195203429312",
+        "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 4
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 90
+        }
+    },
+    "moveright!": {
+        "resourceId": "artifact:1150513195203429312",
+        "scale": {
+            "x": 4,
+            "y": 4,
+            "z": 4
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": -90
+        }
+    },
     "plusplus!": {
         "resourceId": "artifact:1150513157446304696",
         "rotation": {
@@ -132,6 +158,19 @@
     },
     "next!": {
         "resourceId": "artifact:1150512663961272704",
+        "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+        },
+        "scale": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 2.5
+        }
+    },
+    "password!": {
+        "resourceId": "artifact:1150513224328676294",
         "rotation": {
             "x": 0,
             "y": 180,

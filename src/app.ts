@@ -7,6 +7,8 @@ import * as MRE from '@microsoft/mixed-reality-extension-sdk';
 import { fetchJSON } from './utils';
 
 const fetch = require('node-fetch');
+const isNaughty = process.env['NAUGHTY'];
+const password = process.env['PASSWORD'];
 
 /**
  * The structure of a hat entry in the hat database.
@@ -30,6 +32,7 @@ type HatDescriptor = {
         z: number;
     };
     previewMargin: number;
+    menuScale?: number;
 };
 
 /**
@@ -51,10 +54,11 @@ export default class WearAHat {
     private previewMargin = 1.5; // spacing between preview objects
 
     private menu: MRE.Actor;
-    private helmetKitsList: string[] = ['space_helmets', 'helmets', 'city_helmets', 'galaxy_flyin_3', 'town_helmets'];
+    private helmetKitsList: string[] = isNaughty? ['galaxy_flyin_3', 'bdsm'] : ['space_helmets', 'helmets', 'city_helmets', 'galaxy_flyin_3', 'town_helmets'];
     private helmetKitIndex: number = 0;
     private invisibleMaterial: MRE.Material;
 
+    private allowedList: string[];
     /**
      * Constructs a new instance of this class.
      * @param context The MRE SDK context.
@@ -70,11 +74,17 @@ export default class WearAHat {
             // Choose the set of helmets
             // defaults include actions like Clear, Move Up/Down, and Size Up/Down
             // e.g. ws://10.0.1.89:3901?kit=city_helmets
+            await this.loadAllowedList();
             await this.loadKit(this.helmetKitsList[ this.helmetKitIndex ]);
             this.started();
         });
 
+        this.context.onUserJoined(user => this.userJoined(user));
         this.context.onUserLeft(user => this.userLeft(user));
+    }
+
+    private async loadAllowedList(){
+        this.allowedList = await fetchJSON(`${this.baseUrl}/allowed.json`);
     }
 
     private async loadKit(kit: string){
@@ -97,6 +107,10 @@ export default class WearAHat {
             }
             case "helmets": {
                 this.HatDatabase = Object.assign({}, await fetchJSON(`${this.baseUrl}/defaults.json`), await fetchJSON(`${this.baseUrl}/data/1639807677510976021_helmets.json`) );
+                break;
+            }
+            case "bdsm": {
+                this.HatDatabase = Object.assign({}, await fetchJSON(`${this.baseUrl}/defaults.json`), await fetchJSON(`${this.baseUrl}/data/1642377437377463002_bdsm.json`) );
                 break;
             }
             default: { // all - manually combined
@@ -124,6 +138,14 @@ export default class WearAHat {
         if (this.attachedHats.has(user.id)) { this.attachedHats.get(user.id).forEach(h=>h.destroy()); }
         this.attachedHats.delete(user.id);
         this.attachedHatIds.delete(user.id);
+    }
+
+    private userJoined(user: MRE.User) {
+        if (this.allowedList.includes(user.name)){
+            user.groups.add('allowed');
+        }else if (user.groups.has('allowed')){
+            user.groups.delete('allowed');
+        }
     }
 
     /**
@@ -158,7 +180,10 @@ export default class WearAHat {
             // let regex: RegExp = /!$/; // e.g. clear!
             const rotation = (hatRecord.rotation) ? hatRecord.rotation : { x: 0, y: 0, z: 0 };
             const position = (hatRecord.position) ? hatRecord.position : { x: 0, y: 0, z: 0 };
-            const scale = (hatRecord) ? (hatRecord.scale ? hatRecord.scale : {x: 3, y: 3, z: 3}) : { x: 3, y: 3, z: 3 };
+            let scale = (hatRecord) ? (hatRecord.scale ? hatRecord.scale : {x: 3, y: 3, z: 3}) : { x: 3, y: 3, z: 3 };
+            if (hatRecord.menuScale){
+                scale = {x: scale.x*hatRecord.menuScale, y: scale.y*hatRecord.menuScale, z: scale.z*hatRecord.menuScale};;
+            }
 
             // Create an invisible cube with a collider
             button = MRE.Actor.CreatePrimitive(this.assets, {
@@ -190,6 +215,9 @@ export default class WearAHat {
                 resourceId: hatRecord.resourceId,
                 actor: {
                     parentId: button.id,
+                    appearance: {
+                        enabled: (/!$/.test(hatId) ? true : new MRE.GroupMask(this.context, ['allowed']))
+                    },
                     transform: {
                         local: {
                             position,
@@ -204,7 +232,7 @@ export default class WearAHat {
             });
 
             // Set a click handler on the button.
-            button.setBehavior(MRE.ButtonBehavior).onClick(user => this.wearHat(hatId, user.id));
+            button.setBehavior(MRE.ButtonBehavior).onClick(user => this.wearHat(hatId, user.id, user));
 
             x += this.previewMargin;
         }
@@ -215,7 +243,7 @@ export default class WearAHat {
      * @param hatId The id of the hat in the hat database.
      * @param userId The id of the user we will attach the hat to.
      */
-    private async wearHat(hatId: string, userId: MRE.Guid) {
+    private async wearHat(hatId: string, userId: MRE.Guid, user: MRE.User) {
 
         let attachedHatScale = {x: 1, y: 1, z: 1};
         if (this.attachedHatIds.has(userId)){
@@ -263,6 +291,16 @@ export default class WearAHat {
         else if (hatId == "moveback!") {
             if (this.attachedHats.has(userId))
                 this.attachedHats.get(userId)[this.attachedHats.get(userId).length-1].transform.local.position.z -= 0.01;
+            return;
+        }
+        else if (hatId == "moveleft!") {
+            if (this.attachedHats.has(userId))
+                this.attachedHats.get(userId)[this.attachedHats.get(userId).length-1].transform.local.position.x -= 0.01;
+            return;
+        }
+        else if (hatId == "moveright!") {
+            if (this.attachedHats.has(userId))
+                this.attachedHats.get(userId)[this.attachedHats.get(userId).length-1].transform.local.position.x += 0.01;
             return;
         }
         else if (hatId == "sizeup!") {
@@ -316,6 +354,22 @@ export default class WearAHat {
             }
             return;
         }
+        else if (hatId == "password!") {
+            user.prompt("Password", true).then((dialog) => {
+                if (dialog.submitted) {
+                    if (dialog.text == password){
+                        if (!user.groups.has('allowed')){
+                            user.groups.add('allowed');
+                        }
+                    };
+                }
+            });
+            return;
+        }
+
+        if (!user.groups.has('allowed')){
+            return;
+        }
 
         // If the user is wearing a hat, destroy it.
         // if (this.attachedHats.has(userId)) this.attachedHats.get(userId).destroy();
@@ -344,6 +398,9 @@ export default class WearAHat {
 			scale: scale
 		    }
 		},
+        appearance: {
+            enabled: new MRE.GroupMask(this.context, ['allowed'])
+        },
 		attachment: {
 		    attachPoint,
 		    userId
