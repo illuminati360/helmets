@@ -1,0 +1,302 @@
+{
+  "earrings1": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1.2
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1583044419936846397",
+      "attachPoint": "center-eye"
+    },
+  "earrings2": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1.2
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1583044419148317240",
+      "attachPoint": "center-eye"
+    },
+  "earrings3": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1.2
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1583044420071064126",
+      "attachPoint": "center-eye"
+    },
+  "earrings4": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1583044419542581818",
+      "attachPoint": "center-eye"
+    },
+  "earrings5": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1583044418888270390",
+      "attachPoint": "center-eye"
+    },
+  "earrings6": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1583044418494005811",
+      "attachPoint": "center-eye"
+    },
+  "earrings7": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1583044419676799547",
+      "attachPoint": "center-eye"
+    },
+  "earrings8": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1583044419416752697",
+      "attachPoint": "center-eye"
+    },
+  "necklace1": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1583044419022488119",
+      "attachPoint": "neck"
+    },
+  "necklace2": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1583044419802628668",
+      "attachPoint": "neck"
+    },
+  "necklace3": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1583044418628223540",
+      "attachPoint": "neck"
+    },
+  "necklace4": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1583044418754052661",
+      "attachPoint": "neck"
+    },
+  "plumbob1": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1584357061741772844",
+      "attachPoint": "head"
+    },
+  "plumbob2": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1584357061355896873",
+      "attachPoint": "head"
+    },
+  "plumbob3": {
+      "menuScale": 4,
+      "scale": {
+            "x": 1.1,
+            "y": 1.1,
+            "z": 1.1
+          },
+      "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+      "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+      "resourceId": "artifact:1584357061615943723",
+      "attachPoint": "head"
+    }
+}

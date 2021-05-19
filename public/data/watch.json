@@ -1,0 +1,23 @@
+
+{
+    "cigar": {
+        "attachPoint": "right-hand",
+        "menuScale": 4,
+        "resourceId": "artifact:1665348414801445448",
+        "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.3,
+            "y": 0.3,
+            "z": 0.3
+        }
+    }
+}

@@ -1,0 +1,63 @@
+
+{
+    "cigar": {
+        "attachPoint": "right-hand",
+        "menuScale": 4,
+        "resourceId": "artifact:1596073650375623568",
+        "position": {
+            "x": 0,
+            "y": -0.05,
+            "z": -0.05
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 90
+        },
+        "scale": {
+            "x": 1.44,
+            "y": 1.44,
+            "z": 1.44
+        }
+    },
+    "watch": {
+        "attachPoint": "left-hand",
+        "menuScale": 4,
+        "resourceId": "artifact:1665348414801445448",
+        "position": {
+            "x": 0,
+            "y": 0,
+            "z": -0.03
+        },
+        "rotation": {
+            "x": -90,
+            "y": 90,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.12,
+            "y": 0.12,
+            "z": 0.12
+        }
+    },
+    "cam": {
+        "attachPoint": "head",
+        "menuScale": 1,
+        "resourceId": "artifact:1666801966002471269",
+        "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0.4
+        },
+        "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    }
+}
